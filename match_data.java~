@@ -1,0 +1,11 @@
+class MatchData {
+  IContestant side1;
+  IContestant side2;
+  IContestant winner;
+  
+  MatchData (IContestant side1, IContestant side2, IContestant winner) {
+    this.side1 = side1;
+    this.side2 = side2;
+    this.winner = winner;
+  }
+}

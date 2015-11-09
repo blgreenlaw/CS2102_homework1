@@ -1,0 +1,7 @@
+class Examples {
+   Cricket England = new CricketTeam ("England", "Blue and White", 3);
+   Chef Flay = new Chef ("Bobby Flay", "American", 1210000);
+   Robot Dino = new Robot ("WPI", true, "super speed");
+}
+
+//Brianna Greenlaw

@@ -1,0 +1,5 @@
+class NotYetKnown implements IConestant {
+  Unknown () {}
+} 
+
+//this is for the unknown winners of matches for tournaments not finished yet.

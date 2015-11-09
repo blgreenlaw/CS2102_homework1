@@ -1,0 +1,15 @@
+class CricketTeam implements IContestant {
+  String country;
+  String jerseyColor;
+  int rank;
+  
+  Cricket (String country, String jerseyColor, int rank) {
+    this.country = country;
+    this.jerseyColor = jerseyColor;
+    this.rank = rank;
+  }
+  public boolean IsUnderdog () {
+    return this.rank > 20 ;
+  }
+  
+}

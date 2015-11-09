@@ -1,0 +1,14 @@
+class Robot implements IContestant {
+  String school;
+  boolean hasCompetedBefore;
+  String bestFeature;
+  
+  Robot (String school, boolean hasCompetedBefore,String bestFeature) {
+    this.school = school;
+    this.hasCompetedBefore = isCompetedBefore;
+    this.bestFeature = bestFeature;
+  }
+  public boolean IsUnderdog () {
+    return this.hasCompetedBefore = false && this.bestFeature = "pogo sticks" ;
+  }
+}

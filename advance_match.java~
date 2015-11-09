@@ -1,0 +1,18 @@
+class AdvanceMatch implements ITournament {
+  MatchData data;
+  ITournament tournament1;
+  ITournament tournament2;
+  
+  AdvanceMatch (MatchData data, ITournament tournament1, ITournament tournament2) {
+    this.data = data;
+    this.tournament1 = tournament1;
+    this.tournament2 = tournament2;
+  }
+    public int countUnderdogWins () {
+  }
+  public boolean winnersAlwaysPlayed () {
+  }
+  public boolean anySkippedMatches () {
+  }
+}
+  

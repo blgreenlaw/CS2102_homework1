@@ -1,0 +1,13 @@
+class InitMatch implements ITournament {
+  MatchData data;
+  
+  InitMatch (MatchData data) {
+    this.data = data;
+  }
+  public int countUnderdogWins () {
+  }
+  public boolean winnersAlwaysPlayed () {
+  }
+  public boolean anySkippedMatches () {
+  }
+}
